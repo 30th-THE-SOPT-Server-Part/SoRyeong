@@ -19,23 +19,23 @@
 // blah = 'blahblah';
 
 // 블록 스코프
-if (true) {
-    var nickname = 'ryeongE';
-}
-console.log(nickname);
+// if (true) {
+//     var nickname = 'ryeongE';
+// }
+// console.log(nickname);
 
-if (true) {
-    const maybeError = 'can you hear me?';
-    let maybeError2 = 'how about me?';
-}
-console.log(maybeError);
-console.log(maybeError2);
+// if (true) {
+//     const maybeError = 'can you hear me?';
+//     let maybeError2 = 'how about me?';
+// }
+// console.log(maybeError);
+// console.log(maybeError2);
 
-function foo {
-    if (true) {
-        var variable = 'hello';
-        console.log('if block', variable);
-    }
-    console.log('function block', variable);
-}
-console.log('global', variable);
+// function foo {
+//     if (true) {
+//         var variable = 'hello';
+//         console.log('if block', variable);
+//     }
+//     console.log('function block', variable);
+// }
+// console.log('global', variable);
